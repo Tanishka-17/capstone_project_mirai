@@ -84,12 +84,17 @@
 │  │                                                                 │        │
 │  └─────────────────────────────────────────────────────────────────┘        │
 │                                                                               │
-│  💬 Chat & Shopping Mode                                                    │
+│  💬 Chat Mode - Shopping List                                                │
 │  ┌─────────────────────────────────────────────────────────────────┐        │
 │  │                                                                 │        │
-│  │  ![Chat Mode](chat1.png)                                        │        │
+│  │  ![Chat Mode 1](chat1.png)                                      │        │
 │  │                                                                 │        │
-│  │  ![Chat Details](chat2.png)                                     │        │
+│  └─────────────────────────────────────────────────────────────────┘        │
+│                                                                               │
+│  💬 Chat Mode - AI Recommendations                                          │
+│  ┌─────────────────────────────────────────────────────────────────┐        │
+│  │                                                                 │        │
+│  │  ![Chat Mode 2](chat2.png)                                      │        │
 │  │                                                                 │        │
 │  └─────────────────────────────────────────────────────────────────┘        │
 │                                                                               │
@@ -106,10 +111,6 @@
 │ 🏗️ ARCHITECTURE                                                              │
 ├───────────────────────────────────────────────────────────────────────────────┤
 │                                                                               │
-│  ┌─────────────────────────────────────────────────────────────────┐        │
-│  │                    SYSTEM ARCHITECTURE DIAGRAM                    │        │
-│  └─────────────────────────────────────────────────────────────────┘        │
-│                                                                               │
 │  ┌──────────────┐    ┌─────────────────┐    ┌──────────────────┐           │
 │  │   Streamlit  │    │   Session State  │    │    Google        │           │
 │  │    Frontend  │◄──►│   (Memory Mgmt)  │◄──►│    Gemini API    │           │
@@ -121,10 +122,7 @@
 │  │  Data Engine │    │  Linear Reg.    │    │   Visualization  │           │
 │  └──────────────┘    └─────────────────┘    └──────────────────┘           │
 │                                                                               │
-│  ┌─────────────────────────────────────────────────────────────────┐        │
-│  │                    DATA FLOW                                      │        │
-│  └─────────────────────────────────────────────────────────────────┘        │
-│                                                                               │
+│  Data Flow:                                                                  │
 │  1. User uploads CSV or uses sample data                                    │
 │  2. Pandas processes and cleans the data                                   │
 │  3. ML model forecasts future costs                                        │
@@ -156,14 +154,14 @@
 │                                                                               │
 │  Step 1: Clone the repository                                                │
 │  ┌─────────────────────────────────────────────────────────────────┐        │
-│  │  $ git clone https://github.com/your-username/mehengaai-mitra.git │     │
-│  │  $ cd mehengaai-mitra                                            │     │
+│  │  $ git clone https://github.com/Tanishka-17/capstone_project_mirai.git │  │
+│  │  $ cd capstone_project_mirai                                     │     │
 │  └─────────────────────────────────────────────────────────────────┘        │
 │                                                                               │
 │  Step 2: Create a virtual environment                                       │
 │  ┌─────────────────────────────────────────────────────────────────┐        │
 │  │  $ python -m venv venv                                           │     │
-│  │  $ source venv/bin/activate    # On Windows: venv\Scripts\activate│    │
+│  │  $ source venv/bin/activate    # Windows: venv\Scripts\activate│    │
 │  └─────────────────────────────────────────────────────────────────┘        │
 │                                                                               │
 │  Step 3: Install dependencies                                                │
@@ -205,7 +203,7 @@
 │ 🌐 DEPLOYMENT                                                                 │
 ├───────────────────────────────────────────────────────────────────────────────┤
 │                                                                               │
-│  Live App: [Link to your deployed app]                                       │
+│  Live App: https://capstone-project-mirai.streamlit.app                      │
 │                                                                               │
 │  Deployed on: Streamlit Community Cloud                                      │
 │                                                                               │
@@ -308,8 +306,8 @@
 ║                                                                               ║
 ║  🍅  Made with ❤️ by Tanishka Jha                                             ║
 ║  📧  tanishkajha2024@example.com                                             ║
-║  🔗  GitHub: https://github.com/your-username/mehengaai-mitra               ║
-║  🌐  Live Demo: https://mehengaai-mitra.streamlit.app                       ║
+║  🔗  GitHub: https://github.com/Tanishka-17/capstone_project_mirai           ║
+║  🌐  Live Demo: https://capstone-project-mirai.streamlit.app                ║
 ║                                                                               ║
 ║  "Know your basket before it gets expensive."                                ║
 ║                                                                               ║
