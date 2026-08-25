@@ -1,6 +1,6 @@
 <div align="center">
 
-# ⚙️ Mehengaai Mitra
+<img src="https://readme-typing-svg.demolab.com/?font=Orbitron&weight=900&size=44&duration=1&pause=100000&color=000000&background=FFFFFF00&center=true&vCenter=true&width=600&height=70&lines=MEHENGAAI+MITRA&repeat=false" alt="Mehengaai Mitra" />
 
 **Smart Grocery Budget Companion**
 
