@@ -4,13 +4,15 @@
 
 **Smart Grocery Budget Companion**
 
-[![Streamlit App](https://img.shields.io/badge/status-online-00C853?style=flat-square&logo=streamlit&logoColor=white)](https://capstone-project-mirai.streamlit.app)
+[![Streamlit App](https://img.shields.io/badge/status-online-00C853?style=flat-square&logo=streamlit&logoColor=white)](https://capstoneprojectmirai-lbcekpwcaxw2otq4kr7ven.streamlit.app/)
 [![GitHub](https://img.shields.io/badge/source-repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Tanishka-17/capstone_project_mirai)
 [![Python](https://img.shields.io/badge/python-3.11+-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
 [![Gemini](https://img.shields.io/badge/ai-gemini-4285F4?style=flat-square&logo=google&logoColor=white)](https://ai.google.dev)
 [![License](https://img.shields.io/badge/license-MIT-FFD700?style=flat-square)](LICENSE)
 
 *"Know your basket before it gets expensive."*
+
+**🔗 [Try the live app](https://capstoneprojectmirai-lbcekpwcaxw2otq4kr7ven.streamlit.app/)**
 
 </div>
 
